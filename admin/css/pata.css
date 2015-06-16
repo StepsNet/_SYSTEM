@@ -1,0 +1,144 @@
+/* CSS Document */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  background-color:rgba(0, 0, 0, 0.05); 
+  height:35px;
+  font-size:10px;
+  text-align:center;
+  background-color: rgba(0, 0, 0, 0.05);
+  z-index:9999;
+  
+}
+
+
+.footer .text-muted {
+    margin: 0px 0px;
+    position:relative;
+}
+
+.glyphicon {
+    padding-right:0.5em;
+}
+
+.footer .btn-footer {
+    height:30px;
+    width:auto;
+    padding:0px 10px;
+    background:none; 
+    background-color:rgba(0, 0, 0, 0.05);
+    border:none;
+    text-align:center;
+    font-size:10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1) inset; 
+    border-radius:2px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.footer .btn-footer:hover {
+    background-color:rgba(0, 0, 0, 0.1);  
+}
+
+.footer .btn-footer:focus {
+    outline: none;
+}
+
+.btn-footer .glyphicon {
+    padding:0px;
+    margin:0px auto;
+    color: #333;
+    transition: 0.5s; 
+    font-size:16px;   
+}
+
+.footer .btn-footer.rotate {
+    background-color:#222;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    color:white;
+    border:none;
+    /*rgba(255, 255, 255, 0.4)*/
+}
+
+.rotate .glyphicon {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    -webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: 0.5s;
+    background-color:#222;
+    color:white;
+}
+
+.footer .btn-footer .cr {
+    display:block;
+    padding-top:1px;
+    float:right;
+    padding-left:10px;      
+}
+
+#collapseAdminTool {
+  position: absolute;
+  bottom: 0;
+  height:auto;
+  width: 100%;
+  background-color:#222;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.8) inset;
+  margin-bottom:35px;
+  padding:0px 0px;
+  z-index:9999;
+ 
+ 
+   
+}
+
+#collapseAdminTool a {
+    color:white;
+    text-decoration:underline;
+}
+
+#collapseAdminTool .container {
+    margin:20px auto;
+    text-align:left;
+    font-size:12px;
+    color:white;
+}
+#collapseAdminTool .rantl {
+    border-bottom:5px solid rgb(200,200,200);
+    padding:0px;
+    margin:0px;
+}
+
+.reklama {
+
+}
+.reklama p {
+    padding-top:5px;
+    padding-left:3px;
+    margin:0px;
+}
+#carousel-AdminTool {
+    margin-top:12px;
+}
+#carousel-AdminTool .item {
+    height:130px;
+}
+#carousel-AdminTool .carousel-caption {
+    padding:0px;
+    text-align:left;
+    bottom:70px;
+    left:0px;
+    right:0px;
+}
+#carousel-AdminTool .carousel-caption p {
+    padding:0px;
+    margin:0px;
+}
+
+#carousel-AdminTool .carousel-indicators {
+    left:0px;
+    margin-left:0px;
+    text-align:left;
+}
